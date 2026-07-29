@@ -27,6 +27,7 @@ backend/chroma_db/
 .vector_db/
 Enterprise-ai-Chatbot/
 frontend_html/
+ui/
 
 # Uploaded documents
 documents/uploads/
