@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB
+chroma_db/
+backend/chroma_db/
+.vector_db/
+Enterprise-ai-Chatbot/
+
+# Uploaded documents
+documents/uploads/
+documents/*.pdf
+backend/documents/*
+!backend/documents/.gitkeep
+
+# Local user accounts
+users/users.json
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# React build
+dist/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
